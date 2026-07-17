@@ -1,0 +1,8 @@
+namespace Hello {
+    open Microsoft.Quantum.Diagnostics;
+
+    @EntryPoint()
+    operation Main() : Unit {
+        Message("Hello, GitHub!");
+    }
+}
